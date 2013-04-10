@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/mainej/groundworkcss_gem
+  revision: c2f938fb2f929eda0e9444b10cf84647327d6a46
+  branch: update-groundwork-submodule
+  submodules: true
+  specs:
+    groundworkcss (1.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -40,6 +48,13 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    haml (4.0.2)
+      tilt
+    haml-rails (0.4)
+      actionpack (>= 3.1, < 4.1)
+      activesupport (>= 3.1, < 4.1)
+      haml (>= 3.1, < 4.1)
+      railties (>= 3.1, < 4.1)
     hike (1.2.2)
     i18n (0.6.1)
     journey (1.0.4)
@@ -103,8 +118,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  coffee-rails (~> 3.2.1)
+  coffee-rails
+  groundworkcss!
+  haml-rails
   jquery-rails
-  rails (= 3.2.13)
-  sass-rails (~> 3.2.3)
-  uglifier (>= 1.0.3)
+  rails
+  sass-rails
+  uglifier
