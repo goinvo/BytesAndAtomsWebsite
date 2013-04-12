@@ -10,7 +10,7 @@ button, .button, a.button, a.button:visited, input[type=submit],  input[type=but
   word-wrap:break-word;
   padding:0.25em 1em;
   background:$button-color;
-  border:1px solid $button-active;
+  border:1px solid $button-border-color;
   color:$button-text;
   font-family:$font-family;
   font-weight:bold;
