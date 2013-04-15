@@ -22,10 +22,10 @@
     / Application
     %script{:src => "assets/application.js", :type => "text/javascript"}
     / framework css
-    %link{:href => "assets/groundworkcss/groundwork.css", :rel => "stylesheet", :type => "text/css"}/
-    %link{:href => "assets/index.css", :rel => "stylesheet", :type => "text/css"}/
+    = stylesheet_link_tag "groundworkcss/groundwork"
+    = stylesheet_link_tag "index"
     /[if IE]
-      <link type="text/css" rel="stylesheet" href="assets/groundworkcss/groundwork-ie.css">
+      = stylesheet_link_tag "groundworkcss/groundwork-ie"
     /[if lt IE 9]
       <script type="text/javascript" src="groundworkcss/js/libs/html5shiv.min.js"></script>
     /[if IE 7]
