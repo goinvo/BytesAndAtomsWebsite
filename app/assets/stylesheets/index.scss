@@ -38,13 +38,13 @@ header h1 {
 }
 
 header h2 {
-  font-weight:400;
-  font-size:$font-size * 2.5;
+  font-weight: 400;
+  font-size: 35px;
 }
 
 header h3 {
-  font-weight:300;
-  font-size:$font-size * 1.75;
+  font-weight: 300;
+  font-size: 25px;
 }
 
 .attribution {
@@ -55,19 +55,42 @@ header h3 {
 
 a.attribution {
   color: white;
-  font-weight:100;
-  font-size:$font-size * 0.75;
+  font-weight: 100;
+  font-size: 11px;
 }
 
+// Typography overrides
+
 h2 {
-  font-weight:100;
+  font-weight: 100;
+  font-size: 36px;
+  text-align: center;
 }
 h3 {
-  font-weight:700;
+  font-weight: 400;
+  font-size: 24px;
 }
-h4 {
-  font-weight:700;
+
+p, ul, ol, dl {
+  font-size: 17px;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+
+h2.petite {
+  font-size: 28px;
+}
+
+hr {
+  background-image: url(line.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  border: none;
+  height: 5px;
+}
+
+// Grid overrides
 
 .half-pad-top {
   padding-top: 5px;
