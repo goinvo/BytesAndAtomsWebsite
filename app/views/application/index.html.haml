@@ -7,58 +7,61 @@
   %a.attribution(href="http://www.flickr.com/photos/pagedooley/6132821813/in/photostream/")
     Photo by Kevin Dooley
 
+#navigation.nav-bar.ptm
+  .container
+    .row
+      .five.sixths.centered
+        .row
+          .four.fifth
+            %nav.row.align-center.pts
+              %h2.petite.one.fifth
+                = link_to "ABOUT", "#about"
+              %h2.petite.one.fifth
+                = link_to "SPEAKERS", "#speakers"
+              %h2.petite.one.fifth
+                = link_to "TALKS", "#talks"
+              %h2.petite.one.fifth
+                = link_to "SPONSORS", "#sponsors"
+              %h2.petite.one.fifth
+                = link_to "BLOG", "#blog"
+          %a.one.fifth.button.round(href="http://www.google.com") Register
+    %hr.mbn
+
 .container
-  .row
-    .five.sixths.centered
-      .row
-        .four.fifth
-          %nav.row.align-center.pts
-            %h2.petite.one.fifth
-              = link_to "ABOUT", "#about"
-            %h2.petite.one.fifth
-              = link_to "SPEAKERS", "#speakers"
-            %h2.petite.one.fifth
-              = link_to "TALKS", "#talks"
-            %h2.petite.one.fifth
-              = link_to "SPONSORS", "#sponsors"
-            %h2.petite.one.fifth
-              = link_to "BLOG", "#blog"
-        %a.one.fifth.button.round(href="http://www.google.com") Register
+  %section#about
+    .row
+      %h2{style: "margin-left:-99999px"} ABOUT
+      %article.one.third.pam{style: "text-align:center"}
+        .pam.polaroid
+          %iframe{:frameborder => "0", :height => "215", :marginheight => "0", :marginwidth => "0", :scrolling => "no", :src => "http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=290+Congress+Street,+Boston,+MA&aq=0&oq=290+COngress+Stree+&sll=42.375793,-71.112957&sspn=0.14127,0.154324&ie=UTF8&hq=&hnear=290+Congress+St,+Boston,+Massachusetts+02210&t=m&ll=42.352978,-71.053391&spn=0.003409,0.00633&z=16&output=embed", :width => "295"}
+        %h3.mtl
+          Brightcove
+          %br/
+          290 Congress Street
+          %br/
+          Third Floor
+          %br/
+          Boston, MA
+      %article.two.third.phl.ptm
+        %h3 Tuesday, May 21 at Brightcove from 6:00 PM - 9:00 PM.
 
-  %section#about.row
-    %hr
-    %h2{style: "margin-left:-99999px"} ABOUT
-    %article.one.third.pam{style: "text-align:center"}
-      .pam.polaroid
-        %iframe{:frameborder => "0", :height => "215", :marginheight => "0", :marginwidth => "0", :scrolling => "no", :src => "http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=290+Congress+Street,+Boston,+MA&aq=0&oq=290+COngress+Stree+&sll=42.375793,-71.112957&sspn=0.14127,0.154324&ie=UTF8&hq=&hnear=290+Congress+St,+Boston,+Massachusetts+02210&t=m&ll=42.352978,-71.053391&spn=0.003409,0.00633&z=16&output=embed", :width => "295"}
-      %h3.mtl
-        Brightcove
-        %br/
-        290 Congress Street
-        %br/
-        Third Floor
-        %br/
-        Boston, MA
-    %article.two.third.phl.ptm
-      %h3 Tuesday, May 21 at Brightcove from 6:00 PM - 9:00 PM.
+        %p
+          Please join fellow designers, engineers, technologists and artists at Brightcove
+          headquarters in Boston, Massachusetts as we explore the next great shift in
+          interaction design.
 
-      %p
-        Please join fellow designers, engineers, technologists and artists at Brightcove
-        headquarters in Boston, Massachusetts as we explore the next great shift in
-        interaction design.
+        %p
+          As we move beyond the screen, to connected devices and ubiquitous sensors, the
+          internet of things enables us to know ourselves at greater fidelity (for good and
+          bad), to plan our lives and cities better, and to engage with others more quickly
+          and effectively.
 
-      %p
-        As we move beyond the screen, to connected devices and ubiquitous sensors, the
-        internet of things enables us to know ourselves at greater fidelity (for good and
-        bad), to plan our lives and cities better, and to engage with others more quickly
-        and effectively.
-
-      %p
-        Through real-world stories and demonstrations, learn how people are combining
-        data and physical products: From using sensors in retail spaces for generating
-        customer interaction data and analytics, to measuring building performance for
-        energy and occupancy, to controlling physical environments through gestural
-        interaction.
+        %p
+          Through real-world stories and demonstrations, learn how people are combining
+          data and physical products: From using sensors in retail spaces for generating
+          customer interaction data and analytics, to measuring building performance for
+          energy and occupancy, to controlling physical environments through gestural
+          interaction.
 
   %section#speakers
     %hr
