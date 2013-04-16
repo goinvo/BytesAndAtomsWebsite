@@ -22,7 +22,7 @@
                 = link_to "TALKS", "#talks"
               %h2.petite.one.fifth
                 = link_to "SPONSORS", "#sponsors"
-              %h2.petite.one.fifth
+              %h2.petite.one.fifth.hide
                 = link_to "BLOG", "#blog"
           %a.one.fifth.button.round(href="http://www.google.com") Register
     %hr.mbn
@@ -116,17 +116,7 @@
     %h2 TALKS
     .row
       %article.one.third.pal
-        %img(src="http://placehold.it/310x255/198d98/ffffff/")
-        %h3.petite.ptm
-        %p
-
-      %article.one.third.pal
-        %img(src="http://placehold.it/310x255/198d98/ffffff/")
-        %h3.petite.ptm
-        %p
-
-      %article.one.third.pal
-        %img(src="http://placehold.it/310x255/198d98/ffffff/")
+        %img.hide(src="http://placehold.it/310x255/198d98/ffffff/")
         %h3.petite.ptm
           Programming Innovation: Hardware Hacking
         %p
@@ -156,7 +146,7 @@
     %article.one.third.pal.mtm.mbl
       =link_to (image_tag "pivotal-logo.png"), "http://pivotallabs.com/"
 
-  %section#blog(style="position:relative;")
+  %section#blog.hide(style="position:relative;")
     %hr
     %h2.pbl BLOG
     %article#firstPost.toggleDiv.row.pal
