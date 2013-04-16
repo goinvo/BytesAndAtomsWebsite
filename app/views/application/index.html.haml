@@ -146,12 +146,63 @@
   %section#sponsors
     %hr
     %h2 SPONSORS
-    %article.one.third.pal.mtl
+    %article.one.third.pal.mvl
       =link_to (image_tag "brightcove-logo.png"), "http://www.brightcove.com/en/"
-    %article.one.third.pal.mtl
+    %article.one.third.pal.mvl
       =link_to (image_tag "invo-logo.png"), "http://www.goinvo.com/"
-    %article.one.third.pal.mtm
+    %article.one.third.pal.mtm.mbl
       =link_to (image_tag "pivotal-logo.png"), "http://pivotallabs.com/"
 
   %section#blog
-    %article
+    %hr
+    %h2.pbl BLOG
+    %article.pal
+      =image_tag "blog.png"
+    %article.three.fourths.phl
+      #slidingDiv.toggleDiv
+        %h3.punchy.mbn
+          The First Blog Post Title
+          %h4
+            January 23, 2001
+        %p.mvn
+          Number one Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+          sunt in culpa qui officia deserunt mollit anim id est laborum.
+          %br/
+          %br/
+          Number one Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+          sunt in culpa qui officia deserunt mollit anim id est laborum.
+      #slidingDiv_2.toggleDiv(style="display:none")
+        %h3.punchy.mbn
+          A Very Different Blog Title
+          %h4
+            December 3, 1969
+        %p.mvn
+          Number two Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+          sunt in culpa qui officia deserunt mollit anim id est laborum.
+          %br/
+          %br/
+          Number two Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+          sunt in culpa qui officia deserunt mollit anim id est laborum.
+    %article.one.fourth
+      %h4.punchy.mbs
+        READ MORE:
+      %h3
+        %a.show_hide(href="#" rel="#slidingDiv") The First Blog
+        %br/
+        %a.show_hide(href="#" rel="#slidingDiv_2") A Different Second Post
