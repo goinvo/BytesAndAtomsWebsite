@@ -20,7 +20,7 @@
     / Modernizr
     %script{:src => "groundworkcss/js/libs/modernizr-2.6.2.min.js"}
     / Application
-    %script{:src => "assets/application.js", :type => "text/javascript"}
+    = javascript_include_tag "application"
     / framework css
     = stylesheet_link_tag "groundworkcss/groundwork"
     = stylesheet_link_tag "index"
@@ -64,5 +64,14 @@
 
   %body
     =yield
-    / scripts
-    -# %script{:src => "groundworkcss/js/plugins/jquery.cycle2.js", :type => "text/javascript"}
+
+    :javascript
+      $(document).ready(function(){
+        $('.show_hide').showHide({
+          speed: 100,  // speed you want the toggle to happen
+          easing: '',  // the animation effect you want. Remove this line if you dont want an effect and if you haven't included jQuery UI
+          changeText: 0, // if you dont want the button text to change, set this to 0
+          showText: 'View',// the button text to show when a div is closed
+          hideText: 'Close' // the button text to show when a div is open
+        });
+      });
