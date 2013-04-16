@@ -156,56 +156,56 @@
     %article.one.third.pal.mtm.mbl
       =link_to (image_tag "pivotal-logo.png"), "http://pivotallabs.com/"
 
-  %section#blog
+  %section#blog(style="position:relative;")
     %hr
     %h2.pbl BLOG
-    %article.pal
-      =image_tag "blog.png"
-    %article.three.fourths.phl{style: "position:relative;"}
-      #slidingDiv.toggleDiv{style: "position:absolute;"}
+    %article#firstPost.toggleDiv.row.pal
+      .mbl= image_tag "blog.png"
+      .three.fourths
         %h3.punchy.mbn
           The First Blog Post Title
-          %h4
-            January 23, 2001
-        %p.mvn
+        %h4
+          January 23, 2001
+        %p
           Number one Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
           sunt in culpa qui officia deserunt mollit anim id est laborum.
-          %br/
-          %br/
+        %p
           Number one Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
           sunt in culpa qui officia deserunt mollit anim id est laborum.
-      #slidingDiv_2.toggleDiv(style="position: absolute; display:none")
+    %article#secondPost.toggleDiv.row.pal
+      .mbl= image_tag "blog.png"
+      .three.fourths
         %h3.punchy.mbn
           A Very Different Blog Title
-          %h4
-            December 3, 1969
-        %p.mvn
+        %h4
+          December 3, 1969
+        %p
           Number two Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
           sunt in culpa qui officia deserunt mollit anim id est laborum.
-          %br/
-          %br/
+        %p
           Number two Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
           sunt in culpa qui officia deserunt mollit anim id est laborum.
-    %article.one.fourth
-      %h4.punchy.mbs
-        READ MORE:
-      %h3
-        %a.show_hide(href="#" rel="#slidingDiv") The First Blog
-        %br/
-        %a.show_hide(href="#" rel="#slidingDiv_2") A Different Second Post
+    .row(style="position:absolute; top:675px;")
+      .one.fourth.skip-three
+        %h4.punchy.mbs
+          READ MORE:
+        %h3
+          %a.show_hide(href="#firstPost") The First Blog
+          %br/
+          %a.show_hide(href="#secondPost") A Different Second Post
