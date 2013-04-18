@@ -21,7 +21,7 @@ button, .button, a.button, a.button:visited, input[type=submit],  input[type=but
 }
 
 header {
-  background-image: url('header.jpg');
+  background-image: url('header.png');
   background-repeat: no-repeat;
   background-position: center top;
   min-height: 593px;
@@ -49,18 +49,6 @@ header h3 {
 
 .nav-bar {
   background-color: white;
-}
-
-.attribution {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-}
-
-a.attribution {
-  color: white;
-  font-weight: 100;
-  font-size: 11px;
 }
 
 // Typography overrides
