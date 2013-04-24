@@ -51,6 +51,17 @@ header h3 {
   background-color: white;
 }
 
+// This makes the section titles visible after clicking on
+// the nav.  It works by putting an anchor on the page,
+// above each section.  It's exactly 66px above the section,
+// to match the height of the floating nav.
+// Yuck.
+
+.nav-anchor {
+  position: relative;
+  top:-66px; // Must match height of floating nav
+}
+
 // Typography overrides
 
 .punchy {
