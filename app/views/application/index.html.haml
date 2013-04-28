@@ -66,9 +66,10 @@
     .nav-anchor#speakers
     %hr
     %h2 SPEAKERS
-    .row
-      %article.one.third.pal
-        =image_tag "erik-dahl-headshot.jpg", height: "255", alt: "Erik Dahl"
+
+    %article.pal.row
+      .one.third= image_tag "erik-dahl-headshot.jpg", height: "255", alt: "Erik Dahl"
+      .two.thirds
         %h3.petite.ptm
           Erik Dahl, Director of Design Strategy, Involution Studios Columbus
         %p
@@ -78,8 +79,9 @@
           explores the principles of transparency, empowerment, and cultural
           connections between people and technology.
 
-      %article.one.third.pal
-        =image_tag "scott-sullivan-headshot.jpg", height: "255", alt: "Scott Sullivan"
+    %article.pal.row
+      .one.third= image_tag "scott-sullivan-headshot.jpg", height: "255", alt: "Scott Sullivan"
+      .two.thirds
         %h3.petite.ptm
           Scott Sullivan, UX Designer, Involution Studios
         %p
@@ -87,20 +89,9 @@
           Ohio. He has a background in technology-based art, visual design, and
           User Experience design.
 
-      %article.one.third.pal
-        =image_tag "laurence-koret-headshot.jpeg", height: "255", alt: "Laurence Koret"
-        %h3.petite.ptm
-          Laurence Koret, IT Manager, Pivotal Labs
-        %p
-          Laurence Koret is an IT Manager at Pivotal Labs New York.  He founded
-          Starlight Media, makers of Bucket Link, a great way for iOS users to
-          connect with their clients in the cloud.  At Pivotal he's the man
-          behind the curtain, keeping the internet lively, the beer cold and
-          the pickles spicy.
-
-    .row
-      %article.one.third.pal.centered
-        =image_tag "juhan-sonin-headshot.png", height: "255", alt: "Juhan Sonin"
+    %article.pal.row
+      .one.third= image_tag "juhan-sonin-headshot.png", height: "255", alt: "Juhan Sonin"
+      .two.thirds
         %h3.petite.ptm
           Juhan Sonin, Creative Director, Involution Studios
         %p
@@ -111,6 +102,18 @@
           Times, Newsweek, BBC International, Billboard Magazine and National Public
           Radio (NPR). His designs have enjoyed installations throughout Europe and the
           United States.
+
+    %article.pal.row
+      .one.third= image_tag "laurence-koret-headshot.jpeg", height: "255", alt: "Laurence Koret"
+      .two.thirds
+        %h3.petite.ptm
+          Laurence Koret, IT Manager, Pivotal Labs
+        %p
+          Laurence Koret is an IT Manager at Pivotal Labs New York.  He founded
+          Starlight Media, makers of Bucket Link, a great way for iOS users to
+          connect with their clients in the cloud.  At Pivotal he's the man
+          behind the curtain, keeping the internet lively, the beer cold and
+          the pickles spicy.
 
   %section
     .nav-anchor#talks
