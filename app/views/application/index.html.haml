@@ -175,16 +175,24 @@
         outcomes. Get ready for a thought provoking lightning talk on the
         future of connected health with Juhan Sonin.
 
-  %section
+  %section.pbl
     .nav-anchor#sponsors
     %hr
     %h2 SPONSORS
-    %article.one.third.pal.mvl
-      =link_to (image_tag "brightcove-logo.png"), "http://www.brightcove.com/en/"
-    %article.one.third.pal.mvl
-      =link_to (image_tag "invo-logo.png"), "http://www.goinvo.com/"
-    %article.one.third.pal.mtm.mbl
-      =link_to (image_tag "pivotal-logo.png"), "http://pivotallabs.com/"
+    .row.mtm
+      %article.one.third.pal.mtm
+        =link_to image_tag("brightcove-logo.png", alt: "Brightcove"), "http://www.brightcove.com/en/"
+      %article.one.third.pal.mtm
+        =link_to image_tag("invo-logo.png", alt: "Involution Studios"), "http://www.goinvo.com/"
+      %article.one.third.pal
+        =link_to image_tag("pivotal-logo.png", alt: "Pivotal Labs"), "http://pivotallabs.com/"
+    .row.pbl.align-center
+      .five.elevenths.centered
+        .row
+          %article.one.half
+            =link_to image_tag("ixda-logo.png", alt: "IxDA Boston"), "http://www.twitter.com/IxDABoston"
+          %article.one.half.ptm
+            =link_to image_tag("oreilly-logo.png", alt: "O'Reilly"), "http://www.oreilly.com"
 
   %section.hide(style="position:relative;")
     .nav-anchor#blog
@@ -232,7 +240,7 @@
           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
           sunt in culpa qui officia deserunt mollit anim id est laborum.
-    .row(style="position:absolute; top:675px;")
+    .row(style="position:absolute; top:500px;")
       .one.fourth.skip-three
         %h4.punchy.mbs
           READ MORE:
