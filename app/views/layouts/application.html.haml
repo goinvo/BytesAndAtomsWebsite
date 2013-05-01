@@ -67,3 +67,6 @@
 
     :javascript
       $(BytesAndAtoms.start);
+
+    = render(partial: 'layouts/ga') if Rails.env.production?
+
