@@ -12,15 +12,13 @@
         .row
           .four.fifth
             %nav.row.align-center.pts
-              %h2.petite.one.fifth
+              %h2.petite.one.fourth
                 = link_to "ABOUT", "#about"
-              %h2.petite.one.fifth
-                = link_to "SPEAKERS", "#speakers"
-              %h2.petite.one.fifth
+              %h2.petite.one.fourth
                 = link_to "TALKS", "#talks"
-              %h2.petite.one.fifth
+              %h2.petite.one.fourth
                 = link_to "SPONSORS", "#sponsors"
-              %h2.petite.one.fifth.hide
+              %h2.petite.one.fourth.hide
                 = link_to "BLOG", "#blog"
           %a.one.fifth.button.round(href="http://bytesandatoms.eventbrite.com") Register
 
@@ -63,179 +61,180 @@
           interaction.
 
   %section
-    .nav-anchor#speakers
-    %hr
-    %h2 SPEAKERS
-
-    %article.pal.row
-      .one.third= image_tag "headshots/erik-dahl.jpg", height: "255", alt: "Erik Dahl"
-      .two.thirds.phm
-        %h3.petite
-          Erik Dahl, Director of Design Strategy, Involution Studios Columbus
-        %p
-          Erik is the Creative Director of Involution Studios, Columbus,
-          founded the MidwestUX Conference, leads the local Columbus IxDA, and
-          enjoys taking pictures of people in their side view mirrors. His work
-          explores the principles of transparency, empowerment, and cultural
-          connections between people and technology.
-
-    %article.pal.row
-      .one.third= image_tag "headshots/erin-rae-hoffer.jpg", height: "255", alt: "Erin Rae Hoffer"
-      .two.thirds.phm
-        %h3.petite
-          Erin Rae Hoffer AIA, LEED BD+C CSI, Senior Industry Programs Manager, Autodesk
-        %p
-          As Senior Industry Programs Manager with Autodesk, a leading provider
-          of software for design construction and operations, Erin Rae Hoffer
-          fosters innovation through industry presentations and articles. Erin
-          is a board member of the National Institute of Building Standards
-          Council on Finance, Insurance and Real Estate (CFIRE), co-chair of
-          the Boston Society of Architect's Building Systems Committee, and a
-          member of the AIA's National Committee on Codes and Standards.
-
-    %article.pal.row
-      .one.third= image_tag "headshots/laurence-koret.jpg", height: "255", alt: "Laurence Koret"
-      .two.thirds.phm
-        %h3.petite
-          Laurence Koret, IT Manager, Pivotal Labs
-        %p
-          Laurence Koret is an IT Manager at Pivotal Labs New York.  He founded
-          Starlight Media, makers of Bucket Link, a great way for iOS users to
-          connect with their clients in the cloud.  At Pivotal he's the man
-          behind the curtain, keeping the internet lively, the beer cold and
-          the pickles spicy.
-
-    %article.pal.row
-      .one.third= image_tag "headshots/juhan-sonin.jpg", height: "255", alt: "Juhan Sonin"
-      .two.thirds.phm
-        %h3.petite
-          Juhan Sonin, Creative Director, Involution Studios
-        %p
-          Juhan is an emeritus of some of the finest software organizations in the
-          world: Apple, the National Center for Supercomputing Applications (NCSA) and
-          the Massachusetts Institute of Technology (MIT). He has been a creative
-          director for almost two decades with his work being featured in the New York
-          Times, Newsweek, BBC International, Billboard Magazine and National Public
-          Radio (NPR). His designs have enjoyed installations throughout Europe and the
-          United States.
-
-    %article.pal.row
-      .one.third= image_tag "headshots/scott-stropkay.jpg", height: "255", alt: "Scott Stropkay"
-      .two.thirds.phm
-        %h3.petite
-          Scott Stropkay, Partner, Essential Design
-        %p
-          Founding partner of the design consulting firm Essential, Scott helps
-          businesses create physical products, digital products, and services
-          in the consumer, healthcare, and commercial markets. He leads teams
-          of researchers, designers, and engineers to build better discovery
-          processes, define opportunities, and leverage design-thinking skills.
-          Scott’s work informs strategies and development for clients including
-          AARP, iRobot, WellDoc, Healthways, P&amp;G, and Philips Healthcare. He
-          has worked in both corporate and consulting design capacities for
-          over 25 years.
-
-    %article.pal.row
-      .one.third= image_tag "headshots/scott-sullivan.jpg", height: "255", alt: "Scott Sullivan"
-      .two.thirds.phm
-        %h3.petite
-          Scott Sullivan, UX Designer, Involution Studios
-        %p
-          Scott Sullivan is a User Experience designer at Involution Studios
-          Ohio. He has a background in technology-based art, visual design, and
-          User Experience design.
-
-  %section
     .nav-anchor#talks
     %hr
     %h2 TALKS
-    %article.row.pbl
-      %h3.petite.ptm
-        Brick and Mortar Data Shadows
-      %p
-        There are massive amounts of data that exist in the physical world
-        that go un-noticed, un-captured and un-utilized, because we don't
-        have direct access to it. For a brick-and-mortar store, knowing
-        exactly how many people walked by versus how many come in their store
-        compared to how many people stopped and looked at a particular
-        product would be invaluable information. Every day, large amounts of
-        this valuable physical-world data are going uncollected because it's
-        either too difficult or too expensive to capture it. However, it's
-        now easier and easier to collect data about the physical world.
-        Because of this shift, we are currently deploying prototype sensor
-        networks using Arduino and Processing in retail spaces to collect
-        anonymous data about human movement. These new streams of physical
-        world data allow us to understand patterns, contextualize behavior
-        and make the invisible visible. These experiments are the tip of the
-        iceberg for the future of retail analytics, but the business
-        implications go far beyond simple retail analytics. Join Scott and
-        Erik as they discuss their experiments and the coming implications of
-        this new convergence.
+    %article.pbl
+      .row.mvl
+        %h3
+          Brick and Mortar Data Shadows
+        %p
+          There are massive amounts of data that exist in the physical world
+          that go un-noticed, un-captured and un-utilized, because we don't
+          have direct access to it. For a brick-and-mortar store, knowing
+          exactly how many people walked by versus how many come in their store
+          compared to how many people stopped and looked at a particular
+          product would be invaluable information. Every day, large amounts of
+          this valuable physical-world data are going uncollected because it's
+          either too difficult or too expensive to capture it. However, it's
+          now easier and easier to collect data about the physical world.
+          Because of this shift, we are currently deploying prototype sensor
+          networks using Arduino and Processing in retail spaces to collect
+          anonymous data about human movement. These new streams of physical
+          world data allow us to understand patterns, contextualize behavior
+          and make the invisible visible. These experiments are the tip of the
+          iceberg for the future of retail analytics, but the business
+          implications go far beyond simple retail analytics. Join Scott and
+          Erik as they discuss their experiments and the coming implications of
+          this new convergence.
 
-    %article.row.pbl
-      %h3.petite.ptm
-        Interconnected Intelligent Space – Today and Tomorrow
-      %p
-        Today, we spend the majority of our lives indoors, where the spaces we
-        occupy are mute and our interactions with the architecture which
-        defines our existence are simple and limited. Transforming the built
-        environment into a networked set of data-enabled devices represents an
-        incredible opportunity. How will we live in the future when the spaces
-        we inhabit are interconnected and intelligent? What relationships will
-        we build with our architecture? And how will these spaces ultimately
-        shape us? The session will present a case study of the Trapelo Road
-        project, an office space developed to integrate intelligence and to
-        drive improved energy performance and occupant comfort. We will
-        conclude with a speculation on the implications of Trapelo Road's
-        innovations for the future of interfaces, architecture and occupation.
+      .row.mvl
+        .two.ninths= image_tag "headshots/erik-dahl.jpg", height: "200", alt: "Erik Dahl"
+        .seven.ninths
+          %h4
+            Erik Dahl, Director of Design Strategy, Involution Studios Columbus
+          %p
+            Erik is the Creative Director of Involution Studios, Columbus,
+            founded the MidwestUX Conference, leads the local Columbus IxDA, and
+            enjoys taking pictures of people in their side view mirrors. His work
+            explores the principles of transparency, empowerment, and cultural
+            connections between people and technology.
 
-    %article.row.pbl
-      %h3.petite.ptm
-        Programming Innovation: Hardware Hacking
-      %p
-        Laurence will demonstrate how a number of hardware hacking projects at
-        Pivotal now have practical applications.  Pivotal is saving money and
-        innovating as they embed sensors and cheap electronics into their work
-        environment. This talk will cover how hardware innovations are changing
-        programming at Pivotal.
+      .row.mvl
+        .two.ninths= image_tag "headshots/scott-sullivan.jpg", height: "200", alt: "Scott Sullivan"
+        .seven.ninths
+          %h4
+            Scott Sullivan, UX Designer, Involution Studios
+          %p
+            Scott Sullivan is a User Experience designer at Involution Studios
+            Ohio. He has a background in technology-based art, visual design, and
+            User Experience design.
 
-      %ul
-        %li
-          Project Monitor and how Pivotal uses it.
-        %li
-          Running a CI monitor, with a Raspberry Pi instead of a Mac mini.
-        %li
-          A laptop cabinet key and lock replaced by the same swipe card used to enter
-          the office.  Security and tracking device all in one.
-        %li
-          No phone no problem.  Creating a two-factor authenticator on a LeoStick for
-          logging into Google Apps.
 
-    %article.row.pbl
-      %h3.petite.ptm
-        Leon's Interview: An ode to non-invasive, hyper surveillance
-      %p
-        Physiologic information are the patterns of life. Our biologic and
-        digital signatures, like biometric identification, facial recognition,
-        odor analysis, and health condition detection are rapidly converging
-        into an aggregated data and decision space. Non-invasive hyper
-        surveillance will eventually produce a majority of all personal
-        "physiologic signs". And these early detection techniques combined with
-        patient behavior change strategies can dramatically impact health
-        outcomes. Get ready for a thought provoking lightning talk on the
-        future of connected health with Juhan Sonin.
+    %article.pbl
+      .row.mvl
+        %h3
+          Interconnected Intelligent Space – Today and Tomorrow
+        %p
+          Today, we spend the majority of our lives indoors, where the spaces we
+          occupy are mute and our interactions with the architecture which
+          defines our existence are simple and limited. Transforming the built
+          environment into a networked set of data-enabled devices represents an
+          incredible opportunity. How will we live in the future when the spaces
+          we inhabit are interconnected and intelligent? What relationships will
+          we build with our architecture? And how will these spaces ultimately
+          shape us? The session will present a case study of the Trapelo Road
+          project, an office space developed to integrate intelligence and to
+          drive improved energy performance and occupant comfort. We will
+          conclude with a speculation on the implications of Trapelo Road's
+          innovations for the future of interfaces, architecture and occupation.
 
-    %article.row.pbl
-      %h3.petite.ptm
-        Me and My Data vs. Me as Your Data
-      %p
-        We are attracted to, and repelled by, the idea of being monitored.
-        Context, control, privacy, anonymity are just a few of the ideas that
-        need to be understood and carefully balanced to build successful
-        products and successfully connected communities. Scott Stropkay will
-        share end-user research findings on the design of systems that monitor
-        your personal performance, your diseases, and your behaviors in
-        private, actively shared, and open contexts.
+      .row.mvl
+        .two.ninths= image_tag "headshots/erin-rae-hoffer.jpg", height: "200", alt: "Erin Rae Hoffer"
+        .seven.ninths
+          %h4
+            Erin Rae Hoffer AIA, LEED BD+C CSI, Senior Industry Programs Manager, Autodesk
+          %p
+            As Senior Industry Programs Manager with Autodesk, a leading provider
+            of software for design construction and operations, Erin Rae Hoffer
+            fosters innovation through industry presentations and articles. Erin
+            is a board member of the National Institute of Building Standards
+            Council on Finance, Insurance and Real Estate (CFIRE), co-chair of
+            the Boston Society of Architect's Building Systems Committee, and a
+            member of the AIA's National Committee on Codes and Standards.
+
+    %article.pbl
+      .row.mvl
+        %h3
+          Programming Innovation: Hardware Hacking
+        %p
+          Laurence will demonstrate how a number of hardware hacking projects at
+          Pivotal now have practical applications.  Pivotal is saving money and
+          innovating as they embed sensors and cheap electronics into their work
+          environment. This talk will cover how hardware innovations are changing
+          programming at Pivotal.
+
+        %ul
+          %li
+            Project Monitor and how Pivotal uses it.
+          %li
+            Running a CI monitor, with a Raspberry Pi instead of a Mac mini.
+          %li
+            A laptop cabinet key and lock replaced by the same swipe card used to enter
+            the office.  Security and tracking device all in one.
+          %li
+            No phone no problem.  Creating a two-factor authenticator on a LeoStick for
+            logging into Google Apps.
+
+      .row.mvl
+        .seven.ninths
+          %h4
+            Laurence Koret, IT Manager, Pivotal Labs
+          %p
+            Laurence Koret is an IT Manager at Pivotal Labs New York.  He founded
+            Starlight Media, makers of Bucket Link, a great way for iOS users to
+            connect with their clients in the cloud.  At Pivotal he's the man
+            behind the curtain, keeping the internet lively, the beer cold and
+            the pickles spicy.
+        .two.ninths.pll= image_tag "headshots/laurence-koret.jpg", height: "200", alt: "Laurence Koret"
+
+    %article.pbl
+      .row.mvl
+        %h3
+          Leon's Interview: An ode to non-invasive, hyper surveillance
+        %p
+          Physiologic information are the patterns of life. Our biologic and
+          digital signatures, like biometric identification, facial recognition,
+          odor analysis, and health condition detection are rapidly converging
+          into an aggregated data and decision space. Non-invasive hyper
+          surveillance will eventually produce a majority of all personal
+          "physiologic signs". And these early detection techniques combined with
+          patient behavior change strategies can dramatically impact health
+          outcomes. Get ready for a thought provoking lightning talk on the
+          future of connected health with Juhan Sonin.
+
+      .row.mvl
+        .two.ninths= image_tag "headshots/juhan-sonin.jpg", height: "200", alt: "Juhan Sonin"
+        .seven.ninths
+          %h4
+            Juhan Sonin, Creative Director, Involution Studios
+          %p
+            Juhan is an emeritus of some of the finest software organizations in the
+            world: Apple, the National Center for Supercomputing Applications (NCSA) and
+            the Massachusetts Institute of Technology (MIT). He has been a creative
+            director for almost two decades with his work being featured in the New York
+            Times, Newsweek, BBC International, Billboard Magazine and National Public
+            Radio (NPR). His designs have enjoyed installations throughout Europe and the
+            United States.
+
+    %article.pbl
+      .row.mvl
+        %h3
+          Me and My Data vs. Me as Your Data
+        %p
+          We are attracted to, and repelled by, the idea of being monitored.
+          Context, control, privacy, anonymity are just a few of the ideas that
+          need to be understood and carefully balanced to build successful
+          products and successfully connected communities. Scott Stropkay will
+          share end-user research findings on the design of systems that monitor
+          your personal performance, your diseases, and your behaviors in
+          private, actively shared, and open contexts.
+
+      .row.mvl
+        .seven.ninths
+          %h4
+            Scott Stropkay, Partner, Essential Design
+          %p
+            Founding partner of the design consulting firm Essential, Scott helps
+            businesses create physical products, digital products, and services
+            in the consumer, healthcare, and commercial markets. He leads teams
+            of researchers, designers, and engineers to build better discovery
+            processes, define opportunities, and leverage design-thinking skills.
+            Scott’s work informs strategies and development for clients including
+            AARP, iRobot, WellDoc, Healthways, P&amp;G, and Philips Healthcare. He
+            has worked in both corporate and consulting design capacities for
+            over 25 years.
+        .two.ninths.pll= image_tag "headshots/scott-stropkay.jpg", height: "200", alt: "Scott Stropkay"
 
   %section.pbl
     .nav-anchor#sponsors
